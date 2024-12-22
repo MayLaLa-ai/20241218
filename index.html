@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>第三單元課後測驗</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1>第三單元課後測驗</h1>
+            <div class="title-decoration"></div>
+        </div>
+        <div id="loading">載入題目中，請稍候...</div>
+        <div id="quiz-container" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="question-info">
+                <div class="question-number" id="question-number"></div>
+            </div>
+            <div id="question-container"></div>
+            <div id="options-container"></div>
+            <button id="submit-btn">提交答案</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2>測驗結果</h2>
+            <div id="score"></div>
+            <div id="review-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
